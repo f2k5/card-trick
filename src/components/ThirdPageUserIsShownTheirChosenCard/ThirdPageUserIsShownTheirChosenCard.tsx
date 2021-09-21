@@ -9,7 +9,7 @@ interface UserCard {
     userGuessedCard: string
 }
 
-const RevealUserTheirCard: React.FC<UserCard> = 
+const ThirdPageUserIsShownTheirChosenCard: React.FC<UserCard> = 
     ({userGuessedCard}) => {
 
         const FullAppContainer = styled.div`
@@ -109,4 +109,4 @@ const RevealUserTheirCard: React.FC<UserCard> =
         );
 }
 
-export default RevealUserTheirCard;
+export default ThirdPageUserIsShownTheirChosenCard;
