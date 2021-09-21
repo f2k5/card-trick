@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/card-trick/static/css/main.a617e044.chunk.css",
-    "main.js": "/card-trick/static/js/main.8300b568.chunk.js",
-    "main.js.map": "/card-trick/static/js/main.8300b568.chunk.js.map",
+    "main.js": "/card-trick/static/js/main.222570f5.chunk.js",
+    "main.js.map": "/card-trick/static/js/main.222570f5.chunk.js.map",
     "runtime-main.js": "/card-trick/static/js/runtime-main.52fdc4d4.js",
     "runtime-main.js.map": "/card-trick/static/js/runtime-main.52fdc4d4.js.map",
-    "static/js/2.8c381cc2.chunk.js": "/card-trick/static/js/2.8c381cc2.chunk.js",
-    "static/js/2.8c381cc2.chunk.js.map": "/card-trick/static/js/2.8c381cc2.chunk.js.map",
+    "static/js/2.951e807d.chunk.js": "/card-trick/static/js/2.951e807d.chunk.js",
+    "static/js/2.951e807d.chunk.js.map": "/card-trick/static/js/2.951e807d.chunk.js.map",
     "index.html": "/card-trick/index.html",
     "static/css/main.a617e044.chunk.css.map": "/card-trick/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.8c381cc2.chunk.js.LICENSE.txt": "/card-trick/static/js/2.8c381cc2.chunk.js.LICENSE.txt",
+    "static/js/2.951e807d.chunk.js.LICENSE.txt": "/card-trick/static/js/2.951e807d.chunk.js.LICENSE.txt",
+    "static/media/backOfCard.png": "/card-trick/static/media/backOfCard.56b873b1.png",
     "static/media/eight-6-clubs.png": "/card-trick/static/media/eight-6-clubs.b44599ca.png",
     "static/media/eighteen-queen-hearts.png": "/card-trick/static/media/eighteen-queen-hearts.746a7ee8.png",
     "static/media/eleven-ace-hearts.png": "/card-trick/static/media/eleven-ace-hearts.5a72df7d.png",
@@ -34,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.52fdc4d4.js",
-    "static/js/2.8c381cc2.chunk.js",
+    "static/js/2.951e807d.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.8300b568.chunk.js"
+    "static/js/main.222570f5.chunk.js"
   ]
 }
