@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/card-trick/static/css/main.a617e044.chunk.css",
-    "main.js": "/card-trick/static/js/main.0e6c59f6.chunk.js",
-    "main.js.map": "/card-trick/static/js/main.0e6c59f6.chunk.js.map",
+    "main.js": "/card-trick/static/js/main.8300b568.chunk.js",
+    "main.js.map": "/card-trick/static/js/main.8300b568.chunk.js.map",
     "runtime-main.js": "/card-trick/static/js/runtime-main.52fdc4d4.js",
     "runtime-main.js.map": "/card-trick/static/js/runtime-main.52fdc4d4.js.map",
     "static/js/2.8c381cc2.chunk.js": "/card-trick/static/js/2.8c381cc2.chunk.js",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.52fdc4d4.js",
     "static/js/2.8c381cc2.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.0e6c59f6.chunk.js"
+    "static/js/main.8300b568.chunk.js"
   ]
 }
