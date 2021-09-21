@@ -324,9 +324,6 @@ const handleButtonClickForRowThree = () => {
                 }} /> 
                 :
                 null}
-                {console.log("=====================")}
-                {console.log(`Second page: ${row2[3]}`)}  
-
             </div>
         </FullAppContainer>
     );
