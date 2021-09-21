@@ -42,6 +42,11 @@ const ThirdPageUserIsShownTheirChosenCard: React.FC<UserCard> =
         const location = useLocation<{cardChosen : "value"}>();
         const cardChosenByUserInSecondPage = location.state.cardChosen;
         const [takeHomeButton, updateTakeHomeButton] = useState<boolean>(false);
+        const [time, updateTime] = useState<number>(0);
+
+        setTimeout(() => {
+            updateTime(1);
+        }, 2000);
 
         const takeUserBackToPlaying = () => {
             updateTakeHomeButton(true);
@@ -94,9 +99,14 @@ const ThirdPageUserIsShownTheirChosenCard: React.FC<UserCard> =
         return (
             <FullAppContainer>
                 <div>                
-                    <Typography style={{color:"#e3f2fd"}} variant = "h4">And your chosen card is the..</Typography>
+                    {time === 1 ?
+                    <Typography style={{color:"#e3f2fd"}} variant = "h5">There you go!</Typography> :
+                    <Typography style={{color:"#e3f2fd"}} variant = "h5">And the card you were thinking of is the.. wait for it..</Typography> }
                     <CardImageButtonAndCopyRightContainer>
-                        <CardImage src = {userGuessedCard} alt = "Sorry the card is unavailable"/>
+                        {time === 1 ?
+                        <CardImage src = {userGuessedCard} alt = "Sorry the card is unavailable"/> 
+                        : 
+                        <CardImage src = {CardImages.backOfCard} alt = "Sorry the card is unavailable"/> }
                         <Button variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button>
                         {takeHomeButton ? 
                         <Redirect to = {{

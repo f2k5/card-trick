@@ -19,7 +19,8 @@ const CardImages = {
     card18: require("../assets/PlayingCardPictures/eighteen-queen-hearts.png").default,
     card19: require("../assets/PlayingCardPictures/nineteen-9-spades.png").default,
     card20: require("../assets/PlayingCardPictures/twenty-5-diamonds.png").default,
-    card21: require("../assets/PlayingCardPictures/twentyOne-2-clubs.png").default
+    card21: require("../assets/PlayingCardPictures/twentyOne-2-clubs.png").default,
+    backOfCard: require("../assets/PlayingCardPictures/backOfCard.png").default
 }
 
 export default CardImages;
