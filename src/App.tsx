@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import FirstPageUserChoosesCard from "../src/components/FirstPageUserChoosesCard/FirstPageUserChoosesCard";
+import SecondPageUserChoosesRows from "../src/components/SecondPageUserChoosesRow/SecondPageUserChoosesRow";
+import ThirdPageUserIsShownTheirChosenCard from "../src/components/ThirdPageUserIsShownTheirChosenCard/ThirdPageUserIsShownTheirChosenCard";
+import { HashRouter, Switch, Route} from "react-router-dom";
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HashRouter>
+        <Switch>
+          <Route path="/" exact component={FirstPageUserChoosesCard} />
+          <Route path="/choose-row" exact component={SecondPageUserChoosesRows} />
+          <Route path="/result" exact component={ThirdPageUserIsShownTheirChosenCard} />
+        </Switch> 
+      </HashRouter>
     </div>
   );
 }
