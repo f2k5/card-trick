@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/card-trick/static/css/main.a617e044.chunk.css",
+    "main.js": "/card-trick/static/js/main.c022b7c6.chunk.js",
+    "main.js.map": "/card-trick/static/js/main.c022b7c6.chunk.js.map",
+    "runtime-main.js": "/card-trick/static/js/runtime-main.52fdc4d4.js",
+    "runtime-main.js.map": "/card-trick/static/js/runtime-main.52fdc4d4.js.map",
+    "static/js/2.8c381cc2.chunk.js": "/card-trick/static/js/2.8c381cc2.chunk.js",
+    "static/js/2.8c381cc2.chunk.js.map": "/card-trick/static/js/2.8c381cc2.chunk.js.map",
+    "index.html": "/card-trick/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/card-trick/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.8c381cc2.chunk.js.LICENSE.txt": "/card-trick/static/js/2.8c381cc2.chunk.js.LICENSE.txt",
+    "static/media/eight-6-clubs.png": "/card-trick/static/media/eight-6-clubs.b44599ca.png",
+    "static/media/eighteen-queen-hearts.png": "/card-trick/static/media/eighteen-queen-hearts.746a7ee8.png",
+    "static/media/eleven-ace-hearts.png": "/card-trick/static/media/eleven-ace-hearts.5a72df7d.png",
+    "static/media/fifteen-7-spades.png": "/card-trick/static/media/fifteen-7-spades.1517728e.png",
+    "static/media/five-2-hearts.png": "/card-trick/static/media/five-2-hearts.c2cb81fb.png",
+    "static/media/four-3-spades.png": "/card-trick/static/media/four-3-spades.5aea0220.png",
+    "static/media/fourteen-7-diamonds.png": "/card-trick/static/media/fourteen-7-diamonds.fe13bd1b.png",
+    "static/media/nine-5-hearts.png": "/card-trick/static/media/nine-5-hearts.f407aa6f.png",
+    "static/media/nineteen-9-spades.png": "/card-trick/static/media/nineteen-9-spades.dcce4a16.png",
+    "static/media/one-10-spades.png": "/card-trick/static/media/one-10-spades.c9f933df.png",
+    "static/media/seven-5-spades.png": "/card-trick/static/media/seven-5-spades.bffe8ee0.png",
+    "static/media/seventeen-jack-hearts.png": "/card-trick/static/media/seventeen-jack-hearts.f623f209.png",
+    "static/media/six-king-spades.png": "/card-trick/static/media/six-king-spades.fda148e5.png",
+    "static/media/sixteen-jack-spades.png": "/card-trick/static/media/sixteen-jack-spades.3fa41aad.png",
+    "static/media/ten-10-hearts.png": "/card-trick/static/media/ten-10-hearts.bf72f319.png",
+    "static/media/thirteen-4-hearts.png": "/card-trick/static/media/thirteen-4-hearts.436fe356.png",
+    "static/media/three-4-clubs.png": "/card-trick/static/media/three-4-clubs.e6ba95ce.png",
+    "static/media/twelve-ace-spades.png": "/card-trick/static/media/twelve-ace-spades.a24049b6.png",
+    "static/media/twenty-5-diamonds.png": "/card-trick/static/media/twenty-5-diamonds.ced27ce3.png",
+    "static/media/twentyOne-2-clubs.png": "/card-trick/static/media/twentyOne-2-clubs.d5d968ca.png",
+    "static/media/two-6-diamonds.png": "/card-trick/static/media/two-6-diamonds.b19504c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52fdc4d4.js",
+    "static/js/2.8c381cc2.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.c022b7c6.chunk.js"
+  ]
+}
