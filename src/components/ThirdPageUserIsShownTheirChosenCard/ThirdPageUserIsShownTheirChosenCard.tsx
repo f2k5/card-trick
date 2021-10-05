@@ -106,13 +106,15 @@ const ThirdPageUserIsShownTheirChosenCard: React.FC<UserCard> =
 
                     <CardImageButtonAndCopyRightContainer>
                         {time === 1 ?
-                            <CardImage src = {userGuessedCard} alt = "Sorry the card is unavailable"/> :
-                            <CardImage src = {CardImages.backOfCard} alt = "Sorry the card is unavailable"/> 
-                        }
-
-                        {time === 1 ?
-                            <Button variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button> : 
-                            <Button style = {{visibility: "hidden"}} variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button>
+                            <>
+                                <CardImage src = {userGuessedCard} alt = "Sorry the card is unavailable"/> 
+                                <Button variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button> 
+                            </>
+                                : 
+                            <>
+                                <CardImage src = {CardImages.backOfCard} alt = "Sorry the card is unavailable"/> 
+                                <Button style = {{visibility: "hidden"}} variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button>
+                            </>
                         }
 
                         {takeHomeButton ? 
