@@ -100,14 +100,21 @@ const ThirdPageUserIsShownTheirChosenCard: React.FC<UserCard> =
             <FullAppContainer>
                 <div>                
                     {time === 1 ?
-                    <Typography style={{color:"#e3f2fd"}} variant = "h5">There you go!</Typography> :
-                    <Typography style={{color:"#e3f2fd"}} variant = "h5">And the card you were thinking of is the.. wait for it..</Typography> }
+                        <Typography style={{color:"#e3f2fd"}} variant = "h5">There you go!</Typography> :
+                        <Typography style={{color:"#e3f2fd"}} variant = "h5">And the card you were thinking of is the.. wait for it..</Typography> 
+                    }
+
                     <CardImageButtonAndCopyRightContainer>
                         {time === 1 ?
-                        <CardImage src = {userGuessedCard} alt = "Sorry the card is unavailable"/> 
-                        : 
-                        <CardImage src = {CardImages.backOfCard} alt = "Sorry the card is unavailable"/> }
-                        <Button variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button>
+                            <CardImage src = {userGuessedCard} alt = "Sorry the card is unavailable"/> :
+                            <CardImage src = {CardImages.backOfCard} alt = "Sorry the card is unavailable"/> 
+                        }
+
+                        {time === 1 ?
+                            <Button variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button> : 
+                            <Button style = {{visibility: "hidden"}} variant = "contained" onClick = {takeUserBackToPlaying}>Play again!</Button>
+                        }
+
                         {takeHomeButton ? 
                         <Redirect to = {{
                             pathname: "/", 
